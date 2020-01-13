@@ -14,21 +14,21 @@
 <body>
     <div class="container">
         <div class="row h-100 align-items-center justify-content-center">
-            <form method="post" action="login/process">
+            <form method="post" action="login">
                 <c:if test="${not empty sessionScope.alert}">
                     <div class="alert alert-danger"><c:out value="${sessionScope.alert}"/> </div>
                 </c:if>
                 <div class="form-group">
                     <label for="email">Email address</label>
-                    <input type="email" class="form-control" id="email" name="email">
+                    <input type="email" class="form-control" id="email" name="email" value="${cookie.email.value}" >
                 </div>
                 <div class="form-group">
                     <label for="password">Password</label>
                     <input type="password" class="form-control" id="password" name="password">
                 </div>
                 <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Ghi nhớ đăng nhập</label>
+                    <input type="checkbox" class="form-check-input" id="remember" name="remember">
+                    <label class="form-check-label" for="remember">Ghi nhớ đăng nhập</label>
                 </div>
                 <button type="submit" class="btn btn-primary">Đăng nhập</button>
             </form>

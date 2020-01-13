@@ -7,27 +7,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="883263b3-950a-4a37-9af8-b2a3ce5e7e54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/tuan/workmanager/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/tuan/workmanager/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/tuan/workmanager/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/tuan/workmanager/controller/RegisterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/tuan/workmanager/filter/SecutityFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/tuan/workmanager/test/main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/tuan/workmanager/util/Constant$Path.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/tuan/workmanager/util/Constant$Path.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/tuan/workmanager/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/tuan/workmanager/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/tuan/workmanager/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/tuan/workmanager/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/tuan/workmanager/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/tuan/workmanager/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/tuan/workmanager/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/tuan/workmanager/service/impl/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/view/view/boards.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/view/view/boards.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/view/view/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/view/view/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/view/view/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/view/view/register.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Workflow-Manager-Web-Application/com/tuan/workmanager/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workflow-Manager-Web-Application/com/tuan/workmanager/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Workflow-Manager-Web-Application/com/tuan/workmanager/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workflow-Manager-Web-Application/com/tuan/workmanager/controller/RegisterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Workflow-Manager-Web-Application/com/tuan/workmanager/filter/SecutityFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Workflow-Manager-Web-Application/com/tuan/workmanager/test/main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Workflow-Manager-Web-Application/com/tuan/workmanager/util/Constant$Path.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workflow-Manager-Web-Application/com/tuan/workmanager/util/Constant$Path.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workflow-Manager-Web-Application/com/tuan/workmanager/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workflow-Manager-Web-Application/com/tuan/workmanager/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workflow-Manager-Web-Application/com/tuan/workmanager/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workflow-Manager-Web-Application/com/tuan/workmanager/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workflow-Manager-Web-Application/com/tuan/workmanager/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workflow-Manager-Web-Application/com/tuan/workmanager/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workflow-Manager-Web-Application/com/tuan/workmanager/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workflow-Manager-Web-Application/com/tuan/workmanager/service/impl/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tuan/workmanager/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tuan/workmanager/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tuan/workmanager/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tuan/workmanager/controller/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tuan/workmanager/filter/SecutityFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tuan/workmanager/test/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tuan/workmanager/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tuan/workmanager/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tuan/workmanager/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tuan/workmanager/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tuan/workmanager/filter/SecurityFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tuan/workmanager/filter/SecurityFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tuan/workmanager/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tuan/workmanager/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tuan/workmanager/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tuan/workmanager/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tuan/workmanager/util/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tuan/workmanager/util/Constant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/view/boards.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/view/boards.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/view/view/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/view/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/view/view/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/view/register.jsp" afterDir="false" />
     </list>
@@ -109,7 +112,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1WEZfJlYetKWyXGzKaa2tfWZlCI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -245,8 +250,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JDBCConnection" />
         <item itemvalue="Application.main" />
+        <item itemvalue="Application.JDBCConnection" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +271,8 @@
       <workItem from="1578817812725" duration="447000" />
       <workItem from="1578834032674" duration="13711000" />
       <workItem from="1578877266833" duration="8380000" />
-      <workItem from="1578886932808" duration="1110000" />
+      <workItem from="1578886932808" duration="7560000" />
+      <workItem from="1578909679336" duration="8725000" />
     </task>
     <servers />
   </component>

@@ -56,11 +56,12 @@ public class UserDaoImpl extends JDBCConnection implements UserDao {
     }
 
     @Override
-    public boolean checkExistEmailAndPassWord(String email, String password) {
+    public User checkExistEmailAndPassWord(String email, String password) {
         String sql="select * from user where email=? and password=?";
         Connection conn=null;
         PreparedStatement statement=null;
         ResultSet rs=null;
+        User user=null;
         try{
             conn=super.getJDBCConection();
             statement=conn.prepareStatement(sql);
@@ -68,14 +69,14 @@ public class UserDaoImpl extends JDBCConnection implements UserDao {
             statement.setString(2,password);
             rs=statement.executeQuery();
             if (rs.next()){
-                return true;
+               return user=new User(rs.getString("display_name"),rs.getString("email"),rs.getString("password"));
             }
         }catch (SQLException e){
             e.printStackTrace();
         }finally {
             super.close(conn,statement,rs);
         }
-        return false;
+        return null;
     }
 
 }

@@ -16,6 +16,6 @@
     <title>Boards</title>
 </head>
 <body>
-    <h1>Welcome <c:out value="${sessionScope.user}"/> </h1>
+
 </body>
 </html>

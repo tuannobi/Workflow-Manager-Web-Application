@@ -10,10 +10,21 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-@WebServlet("/register/process")
+@WebServlet("/register")
 public class RegisterController extends HttpServlet {
+
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        HttpSession session=req.getSession(false); //neu khong tim thay session thi khong tao moi
+        if (session!=null && session.getAttribute("user")!=null){
+            resp.sendRedirect(req.getContextPath()+Constant.Path.urlBoards);
+            return;
+        }
+        req.getRequestDispatcher(Constant.Path.REGISTER).forward(req,resp);
+    }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
