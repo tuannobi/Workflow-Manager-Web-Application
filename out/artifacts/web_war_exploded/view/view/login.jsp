@@ -14,7 +14,7 @@
 <body>
     <div class="container">
         <div class="row h-100 align-items-center justify-content-center">
-            <form>
+            <form method="post" action="login/process">
                 <c:if test="${not empty sessionScope.alert}">
                     <div class="alert alert-danger"><c:out value="${sessionScope.alert}"/> </div>
                 </c:if>

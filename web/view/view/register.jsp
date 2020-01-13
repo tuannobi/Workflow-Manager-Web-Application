@@ -16,7 +16,7 @@
 
 
 
-    <form method="post" action="register">
+    <form method="post" action="register/process">
         <c:if test="${not empty sessionScope.alert}">
             <div class="alert alert-danger"><c:out value="${sessionScope.alert}"/> </div>
         </c:if>

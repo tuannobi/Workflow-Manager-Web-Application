@@ -15,7 +15,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>RegisterPage</servlet-name>
-        <url-pattern>/helloworld</url-pattern>
+        <url-pattern>/register</url-pattern>
     </servlet-mapping>
 
     <servlet>
@@ -25,5 +25,14 @@
     <servlet-mapping>
         <servlet-name>LoginPage</servlet-name>
         <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BoardsPage</servlet-name>
+        <jsp-file>/view/view/boards.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BoardsPage</servlet-name>
+        <url-pattern>/boards</url-pattern>
     </servlet-mapping>
 </web-app>

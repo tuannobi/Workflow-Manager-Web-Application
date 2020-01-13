@@ -6,7 +6,31 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="883263b3-950a-4a37-9af8-b2a3ce5e7e54" name="Default Changelist" comment="" />
+    <list default="true" id="883263b3-950a-4a37-9af8-b2a3ce5e7e54" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/tuan/workmanager/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/tuan/workmanager/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/tuan/workmanager/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/tuan/workmanager/controller/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/tuan/workmanager/filter/SecutityFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/tuan/workmanager/test/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/tuan/workmanager/util/Constant$Path.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/tuan/workmanager/util/Constant$Path.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/view/view/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/view/view/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/view/view/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/view/view/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workflow-Manager-Web-Application/com/tuan/workmanager/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workflow-Manager-Web-Application/com/tuan/workmanager/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workflow-Manager-Web-Application/com/tuan/workmanager/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workflow-Manager-Web-Application/com/tuan/workmanager/controller/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workflow-Manager-Web-Application/com/tuan/workmanager/filter/SecutityFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workflow-Manager-Web-Application/com/tuan/workmanager/test/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workflow-Manager-Web-Application/com/tuan/workmanager/util/Constant$Path.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workflow-Manager-Web-Application/com/tuan/workmanager/util/Constant$Path.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tuan/workmanager/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tuan/workmanager/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tuan/workmanager/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tuan/workmanager/controller/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tuan/workmanager/filter/SecutityFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tuan/workmanager/test/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tuan/workmanager/util/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tuan/workmanager/util/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/view/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/view/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/view/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/view/register.jsp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +60,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -82,8 +109,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1WEZfJlYetKWyXGzKaa2tfWZlCI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
@@ -236,11 +265,25 @@
       <workItem from="1578801457889" duration="12618000" />
       <workItem from="1578817812725" duration="447000" />
       <workItem from="1578834032674" duration="13711000" />
-      <workItem from="1578877266833" duration="7542000" />
+      <workItem from="1578877266833" duration="8380000" />
+      <workItem from="1578886932808" duration="1110000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
