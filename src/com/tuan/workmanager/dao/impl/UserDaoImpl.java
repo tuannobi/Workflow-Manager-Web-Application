@@ -69,7 +69,7 @@ public class UserDaoImpl extends JDBCConnection implements UserDao {
             statement.setString(2,password);
             rs=statement.executeQuery();
             if (rs.next()){
-               return user=new User(rs.getString("display_name"),rs.getString("email"),rs.getString("password"));
+               return user=new User(rs.getInt("user_id"),rs.getString("display_name"),rs.getString("email"),rs.getString("password"));
             }
         }catch (SQLException e){
             e.printStackTrace();

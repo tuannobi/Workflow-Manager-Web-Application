@@ -1,0 +1,49 @@
+.header-top{
+ background-color: rgb(2,106,167);
+}
+
+#board-display-create {
+    background-color: rgb(240,242,245);
+    width: 200px;
+    height: 100px;
+}
+
+.board-display-group{
+    background-color: rgb(64,163,91);
+    width: 200px;
+    height: 100px;
+}
+
+#board-popup-create-button{
+    background-color: rgb(64,163,91);
+}
+
+#board-popup-create {
+    background-color: rgb(64,163,91);
+}
+
+#board-popup-create-header{
+    background-color: rgb(2,106,167);
+}
+
+#background-popup{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    display: block;
+    position: fixed;
+    z-index:5;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+}
+
+.hide{
+    display: none !important;
+}
+
+a{
+    text-decoration: none;
+}
+

@@ -12,8 +12,7 @@
     <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/view/static/css/login.css">
 </head>
 <body>
-    <div class="container">
-        <div class="row h-100 align-items-center justify-content-center">
+    <div class="container-fluid d-flex align-items-center justify-content-center">
             <form method="post" action="login">
                 <c:if test="${not empty sessionScope.alert}">
                     <div class="alert alert-danger"><c:out value="${sessionScope.alert}"/> </div>
@@ -32,8 +31,7 @@
                 </div>
                 <button type="submit" class="btn btn-primary">Đăng nhập</button>
             </form>
-        </div>
-        
+
     </div>
 
 </body>
