@@ -34,7 +34,7 @@ public class main {
         System.out.println(new Timestamp(newDate.getTime()));
 
         BoardDao boardDao=new BoardDaoImpl();
-        System.out.println(boardDao.getAllByIdUser(16));
+        boardDao.delete(2,16);
 
     }
 }

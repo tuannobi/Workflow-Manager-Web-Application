@@ -6,6 +6,7 @@
     background-color: rgb(240,242,245);
     width: 200px;
     height: 100px;
+    vertical-align: middle;
 }
 
 .board-display-group{
@@ -44,6 +45,7 @@
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none!important;
+    color: black;
 }
 

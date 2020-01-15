@@ -32,6 +32,20 @@ public class Board {
         this.endDate = endDate;
     }
 
+    public Board(int boardId, String tile, String description, Date modifiedLastestDate, int userId, Date startDate, Date endDate) {
+        this.boardId = boardId;
+        this.tile = tile;
+        this.description = description;
+        this.modifiedLastestDate = modifiedLastestDate;
+        this.userId = userId;
+        this.startDate = startDate;
+        this.endDate = endDate;
+    }
+
+    public Board() {
+
+    }
+
     public int getBoardId() {
         return boardId;
     }

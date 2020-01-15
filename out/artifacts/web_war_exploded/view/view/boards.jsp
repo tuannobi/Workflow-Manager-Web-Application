@@ -97,18 +97,18 @@
                     <h2>Personal Boards</h2>
                     <c:if test="${not empty boardList}">
                         <c:forEach var="board" items="${boardList}">
-                            <a href="#" class="float-left p-2 m-2">
-                                <div id="" class="board-display-group ">
+                            <a href="#" class="float-left m-2">
+                                <div id="" class="board-display-group p-3">
                                     <h5>${board.tile}</h5>
                                     <c:if test="${not empty board.modifiedLastestDate}">
-                                        <h6>${board.modifiedLastestDate}</h6>
+                                        Last modified:<h6>${board.modifiedLastestDate}</h6>
                                     </c:if>
                                 </div>
                             </a>
                         </c:forEach>
                     </c:if>
                     <a id="board-display-create-a" href="#" class="float-left p-2 m-2">
-                        <div id="board-display-create" class="align-items-center justify-content-center">
+                        <div id="board-display-create" class="text-center">
                             Create new board
                         </div>
                     </a>

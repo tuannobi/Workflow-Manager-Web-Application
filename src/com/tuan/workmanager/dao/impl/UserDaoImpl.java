@@ -32,6 +32,65 @@ public class UserDaoImpl extends JDBCConnection implements UserDao {
         }
     }
 
+    @Override
+    public void update(User user) {
+        String sql="update user set display_name=?,email=?,password=? where user_id=?";
+        Connection conn=null;
+        PreparedStatement statement=null;
+        try{
+            conn=super.getJDBCConection();
+            statement=conn.prepareStatement(sql);
+            statement.setString(1,user.getDisplayName());
+            statement.setString(2,user.getEmail());
+            statement.setString(3,user.getPassword());
+            statement.setInt(4,user.getUserId());
+            statement.executeQuery();
+        }catch (SQLException e){
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void delete(int userId) {
+        String sql="delete from user where user_id=?";
+        Connection conn=null;
+        PreparedStatement statement=null;
+        try{
+            conn=super.getJDBCConection();
+            statement=conn.prepareStatement(sql);
+            statement.setInt(1,userId);
+            statement.executeQuery();
+        }catch (SQLException e){
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public User getUser(int userId) {
+        String sql="select * from user where user_id=?";
+        Connection conn=null;
+        PreparedStatement statement=null;
+        ResultSet rs=null;
+        User user=null;
+        try{
+            conn=super.getJDBCConection();
+            statement=conn.prepareStatement(sql);
+            statement.setInt(1,userId);
+            statement.executeQuery();
+            if(rs.next()){
+                user=new User();
+                user.setUserId(rs.getInt("user_id"));
+                user.setDisplayName(rs.getString("display_name"));
+                user.setEmail(rs.getString("email"));
+                user.setPassword(rs.getString("password"));
+            }
+            return user;
+        }catch (SQLException e){
+            e.printStackTrace();
+        }
+        return null;
+    }
+
 
     @Override
     public boolean checkExistEmail(String email) {
